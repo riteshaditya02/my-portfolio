@@ -1,0 +1,19 @@
+/* styles/Navbar.css */
+@import "tailwindcss";
+
+.navbar {
+    @apply  text-white py-4 px-6 flex justify-between items-center rounded-full m-8;
+    background-color: #171717
+  }
+  
+  .logo {
+    @apply text-2xl font-bold;
+  }
+  
+  .nav-links {
+    @apply flex space-x-70;
+  }
+  
+  .nav-links li a {
+    @apply text-white hover:bg-sky-700 transition duration-300;
+  }
