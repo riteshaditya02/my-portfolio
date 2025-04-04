@@ -1,0 +1,43 @@
+.skills-section {
+  background-color: #1f2937;
+  color: #e2e8f0;
+}
+
+.skill-card {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-title {
+  color: #4facfe;
+  border-bottom: 2px solid #4facfe;
+}
+
+.skill-tag {
+  transition: all 0.3s ease;
+}
+
+.programming-tag {
+  background: rgba(66, 153, 225, 0.2);
+  color: #63b3ed;
+}
+
+.webdev-tag {
+  background: rgba(72, 187, 120, 0.2);
+  color: #68d391;
+}
+
+.database-tag {
+  background: rgba(159, 122, 234, 0.2);
+  color: #b794f4;
+}
+
+.tools-tag {
+  background: rgba(236, 201, 75, 0.2);
+  color: #f6e05e;
+}

@@ -1,0 +1,42 @@
+.projects-section {
+  background-color: #1f2937;
+  color: #e2e8f0;
+}
+
+.project-card {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-title {
+  color: #4facfe;
+}
+
+.project-description {
+  color: #a0aec0;
+}
+
+.tech-tag {
+  background: rgba(66, 153, 225, 0.2);
+  color: #63b3ed;
+  transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+  background: rgba(66, 153, 225, 0.3);
+}
+
+.project-link {
+  color: #4facfe;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  color: #00f2fe;
+}

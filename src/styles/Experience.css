@@ -1,0 +1,34 @@
+.experience-section {
+  background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+  color: #e2e8f0;
+}
+
+.experience-card {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.company-name {
+  color: #4facfe;
+}
+
+.job-title {
+  color: #48bb78;
+}
+
+.date {
+  color: #a0aec0;
+}
+
+.responsibility-list li {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.responsibility-list li::before {
+  content: "•";
+  color: #4facfe;
+  position: absolute;
+  left: 0;
+}

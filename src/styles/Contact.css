@@ -1,0 +1,44 @@
+.contact-section {
+  background-color: #1f2937;
+  color: #e2e8f0;
+}
+
+.contact-card {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+}
+
+.contact-input {
+  background: #374151;
+  border: 1px solid #4a5568;
+  color: #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.contact-input:focus {
+  border-color: #4facfe;
+  box-shadow: 0 0 0 2px rgba(79, 172, 254, 0.2);
+}
+
+.contact-button {
+  background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(79, 172, 254, 0.3);
+}
+
+.contact-info {
+  color: #a0aec0;
+}
+
+.contact-link {
+  color: #4facfe;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #00f2fe;
+}

@@ -1,0 +1,31 @@
+.about-section {
+  background-color: #1f2937;
+  color: #e2e8f0;
+}
+
+.about-card {
+  background: #2d3748;
+  border: 1px solid #4a5568;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.about-title {
+  color: #4facfe;
+}
+
+.education-section, .location-section {
+  background: #2a374a;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.education-section:hover, .location-section:hover {
+  transform: translateY(-5px);
+}
+
+.section-title {
+  color: #4facfe;
+  border-bottom: 2px solid #4facfe;
+  padding-bottom: 0.5rem;
+}
